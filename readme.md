@@ -20,7 +20,7 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=Aviona05/AWD-Seatwork-1-(problem set 1)-(B,A)-25)
+![](https://visit-counter.vercel.app/counter.png?page=Aviona05/AWD-Seatwork-1-(problemset1)-(B,A)-25)
 
 [![wakatime](https://wakatime.com/badge/user/018f0316-294f-4b38-b869-a3201b1c8b64/project/2f03d831-a959-4487-a969-8cd4ddc7d0ef.svg)](https://wakatime.com/badge/user/018f0316-294f-4b38-b869-a3201b1c8b64/project/2f03d831-a959-4487-a969-8cd4ddc7d0ef)
 
