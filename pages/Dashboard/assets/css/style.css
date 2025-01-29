@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url(../img/bg2.png);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+img{
+    width: 30%;
+    margin-left: 10%;
+}
+
+.logout-btn {
+    background: rgba(0, 82, 91, 0.168);
+    border-radius: 50px;
+    border: none;
+    color: #03374b;
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 20px;
+    transition: background 0.2s;
+}
+
+.logout-btn:hover {
+    background: rgba(0, 82, 91, 0.5);
+}
+
+.card{
+    display: flex;
+    background: rgba(2, 80, 63, 0.337);
+    border-radius: 15px;
+    padding: 1rem;
+    margin-left: 50rem ;
+    max-width: 600px;
+    backdrop-filter: blur(10px);
+}
+.main-container {
+    max-width: 600px;
+    margin: 0.5rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+.balance-container {
+    margin: 2rem 0;
+    color: white;
+}
+
+.balance-container h2 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color:#03374b;
+}
+
+.amount-input {
+    width: 100%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.action-btn {
+    padding: 0.8rem 2rem;
+    border:#03374b solid 3px;
+    border-radius: 30px;
+    background: #03374b00;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.action-btn:hover {
+    transform: scale(1.05);
+    background-color: #03374b44;
+}
+
+.history-container {
+    margin-top: 1rem;
+    max-height: 200px;
+    overflow-y: auto;
+    background: rgba(2, 80, 63, 0.218);
+    border-radius: 10px;
+    padding: 1rem;
+    display: none;
+}
+
+.history-item {
+    padding: 0.5rem;
+    text-align: center;
+
+}
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table th, .history-table td {
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+.history-table th {
+    background-color: #f2f2f2fe;
+}
+
+.history-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

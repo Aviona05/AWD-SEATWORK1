@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Dashboard/assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="">
+        </div>
+        <button class="logout-btn">Logout</button>
+    </header>
+
+    <div class="card">
+
+    
+    <div class="main-container">
+        <div class="balance-container">
+            <h2>Balance:</h2>
+            <h2 id="balance">5000 PHP</h2>
+        </div>
+
+        <input type="number" class="amount-input" placeholder="Enter Amount" id="amount">
+        
+        <div class="button-container">
+            <button class="action-btn" onclick="deposit()">Deposit</button>
+            <button class="action-btn" onclick="withdraw()">Withdrawal</button>
+            <button class="action-btn" onclick="toggleHistory()">History</button>
+        </div>
+
+        <div class="history-container" id="history">
+            <table class="history-table">
+                <thead>
+                    <tr>
+                        <th>Date and Time</th>
+                        <th>Type</th>
+                        <th>Amout</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="history-item">
+                        <td>Item 1</td>
+                        <td>Item 2</td>
+                        <td>Item 3</td>
+                    </tr>
+                    <!-- More rows as needed -->
+                </tbody>
+            </table>
+            <!-- Transaction history will be added here -->
+        </div>
+    </div>
+</div>
+    <script src="../Dashboard/assets/js/scripts.js"></script>
+</body>
+</html>
