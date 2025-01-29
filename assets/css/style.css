@@ -57,8 +57,9 @@ body {
     margin-left: 20%;
   }
   
-  button {
-    background: #27ae60;
+  a {
+    background-color: #219150;
+    text-decoration: none;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -66,10 +67,11 @@ body {
     cursor: pointer;
     width: 50%;
     font-size: 16px;
-    margin-left: 26%;
+    margin-left: 45%;
+    width: 100%;
   }
   
-  button:hover {
+  a:hover {
     background: #219150;
   }
 
@@ -102,10 +104,6 @@ body {
         margin-left: 10%;
     }
 
-    button {
-        width: 80%;
-        margin-left: 10%;
-    }
 }
   @media screen and (max-width: 480px) {
     img {
@@ -126,7 +124,7 @@ body {
         margin-left: 5%;
     }
 
-    button {
+   a {
         width: 90%;
         margin-left: 5%;
     }
