@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 95vh;
+    background-image: url(../img/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+  
+  img {
+    width: 10%;
+    object-fit: cover;
+    margin-left: 25%;
+    margin-top: 45px;
+
+  }
+
+  .login-container {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5px;
+    
+  }
+  h2 {
+    font-size: 8rem;
+    margin-bottom: 15px;
+    color: #2c3e50;
+  }
+  
+  .username {
+    font-size: 40px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  
+  label {
+    font-size: 10px;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 22% ;
+    color: #2c3e50;
+
+
+  }
+  
+  input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    margin-left: 20%;
+  }
+  
+  button {
+    background: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    margin-left: 26%;
+  }
+  
+  button:hover {
+    background: #219150;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    img {
+        width: 20%;
+        margin-left: 35%;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    .username {
+        font-size: 18px;
+    }
+
+    .login-container {
+        padding: 10px;
+    }
+
+    .login-box {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    input {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    button {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+  @media screen and (max-width: 480px) {
+    img {
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .username {
+        font-size: 16px;
+    }
+
+    input {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    button {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
