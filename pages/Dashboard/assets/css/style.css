@@ -27,8 +27,9 @@ img{
     margin-left: 10%;
 }
 
-.logout-btn {
+a {
     background: rgba(0, 82, 91, 0.168);
+    text-decoration: none;
     border-radius: 50px;
     border: none;
     color: #03374b;
@@ -38,7 +39,7 @@ img{
     transition: background 0.2s;
 }
 
-.logout-btn:hover {
+a:hover {
     background: rgba(0, 82, 91, 0.5);
 }
 
