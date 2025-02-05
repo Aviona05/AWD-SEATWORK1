@@ -4,7 +4,7 @@ function login() {
 
   if (password === correctPassword) {
     alert("Login successful!");
-    window.location.href = "./pages/dashboard/index.html";
+    window.location.href = "/pages/Dashboard/index.html";
   } else {
     alert("Incorrect password. Please try again.");
   }
